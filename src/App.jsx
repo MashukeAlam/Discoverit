@@ -180,7 +180,7 @@ const App = () => {
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center space-x-2">
                 <h1 className={`text-center text-3xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
-                  Youtube & Reddit Contents as per Your Interests
+                  Youtube & Reddit Contents by Interests
                 </h1>
               </div>
               <button
