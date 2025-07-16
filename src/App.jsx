@@ -179,7 +179,6 @@ const App = () => {
           <div className="backdrop-blur-md bg-glass-bg border border-glass-border rounded-xl p-6 shadow-xl">
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center space-x-2">
-                <HeartIcon className={`h-8 w-8 ${darkMode ? 'text-blue-200' : 'text-blue-500'}`} />
                 <h1 className={`text-center text-3xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
                   Youtube & Reddit Contents as per Your Interests
                 </h1>
@@ -215,7 +214,7 @@ const App = () => {
         </div>
       </div>
       <footer className="mt-12 text-center text-xs text-gray-400">
-        © {new Date().getFullYear()} DiscoverIt. Built with ❤️ by You.
+        © {new Date().getFullYear()} Built with ❤️ by You.
       </footer>
     </div>
   );
