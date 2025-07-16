@@ -179,7 +179,7 @@ const App = () => {
           <div className="backdrop-blur-md bg-glass-bg border border-glass-border rounded-xl p-6 shadow-xl">
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center space-x-2">
-                <h1 className={`text-center text-3xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
+                <h1 className={`text-center text-xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
                   Youtube & Reddit Contents by Interests
                 </h1>
               </div>
