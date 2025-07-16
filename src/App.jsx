@@ -180,8 +180,8 @@ const App = () => {
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center space-x-2">
                 <HeartIcon className={`h-8 w-8 ${darkMode ? 'text-blue-200' : 'text-blue-500'}`} />
-                <h1 className={`text-3xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
-                  Discover Your Interests
+                <h1 className={`text-center text-3xl font-bold ${darkMode ? 'text-blue-200' : 'text-blue-500'}`}>
+                  Youtube & Reddit Contents as per Your Interests
                 </h1>
               </div>
               <button
