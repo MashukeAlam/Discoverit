@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube & Reddit Recommender</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'glass-bg': 'rgba(255, 255, 255, 0.1)',
+            'glass-border': 'rgba(255, 255, 255, 0.2)',
+          },
+        },
+      },
+    }
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</head>
+<body class="bg-gray-900 text-white dark:bg-gray-900 dark:text-white">
+  <div id="root"></div>
+</body>
+</html>
